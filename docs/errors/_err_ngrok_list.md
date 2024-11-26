@@ -5157,6 +5157,23 @@
     </tr>
     <tr>
       <td>
+        <a id="ERR_NGROK_2238" href="/docs/errors/err_ngrok_2238">ERR_NGROK_2238</a>
+      </td>
+      <td class="pre-wrapped">
+        Failed to resolve interpolated CEL expression. The expression was: <code>&lt;CEL&gt;</code>
+        ERROR: <code>&lt;ERROR&gt;</code>}
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a id="ERR_NGROK_2239" href="/docs/errors/err_ngrok_2239">ERR_NGROK_2239</a>
+      </td>
+      <td class="pre-wrapped">
+        Invalid policy: Only one auth action allowed per endpoint.
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a id="ERR_NGROK_3002" href="/docs/errors/err_ngrok_3002">ERR_NGROK_3002</a>
       </td>
       <td class="pre-wrapped">
@@ -10617,6 +10634,14 @@
     </tr>
     <tr>
       <td>
+        <a id="ERR_NGROK_15010" href="/docs/errors/err_ngrok_15010">ERR_NGROK_15010</a>
+      </td>
+      <td class="pre-wrapped">
+        The binding <code>&lt;BINDING&gt;</code> refers to a k8s operator that does not exist.
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a id="ERR_NGROK_16000" href="/docs/errors/err_ngrok_16000">ERR_NGROK_16000</a>
       </td>
       <td class="pre-wrapped">
@@ -10676,7 +10701,7 @@
         <a id="ERR_NGROK_18001" href="/docs/errors/err_ngrok_18001">ERR_NGROK_18001</a>
       </td>
       <td class="pre-wrapped">
-        The provided cloud endpoint configuration is invalid: url is invalid
+        The provided cloud endpoint configuration is invalid: url is invalid.
       </td>
     </tr>
     <tr>
@@ -10724,7 +10749,7 @@
         <a id="ERR_NGROK_18007" href="/docs/errors/err_ngrok_18007">ERR_NGROK_18007</a>
       </td>
       <td class="pre-wrapped">
-        This account does not have any domains or addresses reserved that match the provided URL.
+        This provided cloud endpoint configuration is invalid: binding.
       </td>
     </tr>
     <tr>
@@ -10773,6 +10798,14 @@
       </td>
       <td class="pre-wrapped">
         The metadata field cannot be longer than 4096 characters.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a id="ERR_NGROK_18014" href="/docs/errors/err_ngrok_18014">ERR_NGROK_18014</a>
+      </td>
+      <td class="pre-wrapped">
+        The provided cloud endpoint configuration is invalid. The <code>&lt;FIELD&gt;</code> field is not properly formed. Reason: <code>&lt;ERROR&gt;</code>.
       </td>
     </tr>
   </tbody>

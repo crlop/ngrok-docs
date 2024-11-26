@@ -8,6 +8,6 @@ curl \
 -H "Authorization: Bearer {API_KEY}" \
 -H "Content-Type: application/json" \
 -H "Ngrok-Version: 2" \
--d '{"certificate_management_policy":{"authority":"letsencrypt"},"description":"point-of-sale new york #302","http_endpoint_configuration_id":"ec_2p88ocNBbQWY5bbcYUM6AgCeJFs","https_endpoint_configuration_id":"ec_2p88oa0VypGJ5uBWLmeLLCe99ne","metadata":"{env: \"staging\", \"connector_id\":\"64698fcc-5f5c-4b63-910e-8669d04bd943\"}"}' \
-https://api.ngrok.com/reserved_domains/rd_2p88oSwNQF7IJkLgxpiGOjaQqQw
+-d '{"certificate_management_policy":{"authority":"letsencrypt"},"description":"point-of-sale new york #302","http_endpoint_configuration_id":"ec_2pOlORMR27aeIhzHoo104G21ITx","https_endpoint_configuration_id":"ec_2pOlOPfUfAlMPj8ljj30uyBfCkh","metadata":"{env: \"staging\", \"connector_id\":\"64698fcc-5f5c-4b63-910e-8669d04bd943\"}"}' \
+https://api.ngrok.com/reserved_domains/rd_2pOlOPVhVA5dkf6wBwNGAsi8ZTP
 ```
